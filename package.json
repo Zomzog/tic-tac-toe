@@ -2,6 +2,7 @@
   "name": "synchronizer-front",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zomzog.github.io/tic-tac-toe/",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -10,8 +11,8 @@
   "scripts": {
     "start": "BROWSER='chromium' react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
